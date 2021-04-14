@@ -15,6 +15,7 @@
                 include 'listepisodes.php';
             }
             ?>
+<br>        
         <?php
         foreach ($buttons as $item) {
             if (!isset($item->protocol)) {

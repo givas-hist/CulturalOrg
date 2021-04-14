@@ -14,26 +14,30 @@
     include "navbar.php";
     ?>
     <br>
-    <div class="container">
         <?php
         include "js.php";
         if (!isset($_GET["cat"])) {
         ?>
-            <ul>
+        <btn class="card" style="margin-top: 30px;">
+            <ol style="list-style-type:none;">
                 <?php
                 foreach ($categories_xml as $item) {
                     echo "<li><a href=\"categories.php?cat=" . $item->id . "\">" . $item->description . "</a></li>";
                 }
                 ?>
-            </ul>
-            <hr>
-            <a href="categories.php?cat=all"><?php echo _('All Episodes'); ?></a>
+            </ol> </btn>
+<br>
+<hr>
+<br>            
+				<btn class="card"style="padding:25px;">
+            <a href="categories.php?cat=all"><?php echo _('All Episodes'); ?></a> </btn>
+            
         <?php
         } else {
             include 'listepisodes.php';
         }
         ?>
-    </div>
+
 </body>
 
 </html>

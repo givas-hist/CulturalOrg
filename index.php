@@ -51,13 +51,15 @@
 	 include "js.php";    
     include "navbar.php";
     ?>
-<br>
-<div class="title-bg" style="z-index: -1; background-image: url(<?php echo $config[url] . $config[img_dir] . "title-background.jpg" ?>);">
-<br>    
-<div class="title"><?php echo $config['podcast_title']; ?>
-<div class="lead"> <?php echo $config["podcast_subtitle"]; ?></div>
-</div><br>
-</div>
+</br>
+</br>
+</br>
+
+<div id="title" class="bg" style="background-image: url(<?php echo $config[url] . $config[img_dir] . "title-background.jpg" ?>);">
+<div id="title" class="title"> <?php echo $config['podcast_title']; ?><br>
+<div id="title" class="minilead"> <?php echo $config["podcast_subtitle"]; ?></div>
+<div id="title" class="lead"><?php echo $config['podcast_description']; ?>
+</div></div></div>
 
  <?php
         include "jumbotron.php";
