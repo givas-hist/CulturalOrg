@@ -5,6 +5,6 @@ Theme for Podcast Generator 3.x
 
 Pontos Desenvolvidos
 
-Melhoria na apresentação dos episódios individualmente e me modo lista;
-Barra de navegação superior fixa;
-Maior parte da configuração estética/estilistica centrada no arquivo meuestilo.css
+Melhoria na apresentação dos episódios individualmente e me modo lista;<br>
+Barra de navegação superior fixa;<br>
+Maior parte da configuração estética/estilistica centrada no arquivo meuestilo.css;<br>
